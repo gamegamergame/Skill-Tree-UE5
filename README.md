@@ -9,11 +9,12 @@ A simple Skill Tree that you can use in Unreal Engine 5
 
 1. Open up the Skill Menu Blueprint in the content folder
 2. In the Palette Tab in the User Created section drag in a "WB Skill Node"
-3. In the "Default" section of the Node assign the previous node to something of your choice, if there is none set the is first node bool to true
-4. Assign the next nodes that can be unlocked after you unlock this node
-
-
 
 # How to Create a Tree
+
+1. For each node in your tree repeat the following:
+2. In the "Default" section of the Node assign the previous node to something of your choice, if it is the first node in the tree set the corresponding bool to true
+3. Assign the next nodes that can be unlocked after you unlock this node
+
 
 ### Credits: https://www.youtube.com/watch?v=198AMGtdo-E
